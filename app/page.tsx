@@ -1,8 +1,8 @@
 export default function Home() {
   return (
     <>
-      <main className='flex justify-center items-center min-h-screen'>
-        <p className='text-center'>this is main</p>
+      <main className='w-full h-full flex justify-center items-center'>
+        <h1 className='text-purple-500 text-8xl font-bold font-sans'>Main</h1>
       </main>
     </>
   );
