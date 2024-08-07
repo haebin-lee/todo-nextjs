@@ -1,4 +1,4 @@
-import { validateBody, withErrorHandling } from '@/lib/apiHandler';
+import { validateBody, withErrorHandling } from '@/lib/api-handler';
 import { BadRequestError } from '@/lib/error';
 import prisma from '@/lib/prisma';
 import { NextRequest, NextResponse } from 'next/server';
